@@ -146,5 +146,5 @@ to provide a quicker route to development of
 Another objective here is to provide an API consistent with, but a superset of, that of the _Open Money_ suite described above. This will simplify development of portable and re-usable components.
 
 The recursively-nested, holonic structure of the OM suite reflects the 
-structure of the Viable System Model, so a suite of tols will be developed over
+structure of the Viable System Model, so a suite of tools will be developed over
 time to support its application.
