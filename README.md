@@ -1,6 +1,6 @@
-## Open Money development roadmap
+# Open Money development roadmap
 
-##### Clarification of terms:
+#### Clarification of terms:
 
 The term _open money_ (all lower case) refers to the concept of user-created 
 "monies". This is described in a number of writings, many of which can be 
@@ -11,12 +11,12 @@ In this sense, _open money_ is a particular case of _open metrics_.
 The name _Open Money_ (capitalized) refers to specific software used to 
 implement _open money_ or, more generally, _open metrics_.
 
-### The Open Money (OM) suite
+## The Open Money (OM) suite
 
 The current implementation of _Open Money_ was created by Dominique Legault and
 comprises (so far) four main components:
 
-##### openmoney-api (OM API)
+#### openmoney-api (OM API)
 
 https://github.com/jethro-swan/openmoney-api (forked from https://github.com/deefactorial/openmoney-api)
 
@@ -35,7 +35,7 @@ money_ is unnecessarily restrictive. It is maintained partly for historical
 reasons, but also because _monies_ of various type are important cases of 
 _currency_ in this sense.
 
-##### openmoney-network
+#### openmoney-network
 
 https://github.com/jethro-swan/openmoney-network (forked from https://github.com/deefactorial/openmoney-network)
 
@@ -44,7 +44,7 @@ compact to make it usable on a smartphone or in an iFrame.
 
 This is essentially a proof-of-concept prototype.
 
-##### openmoney-gift-api
+#### openmoney-gift-api
 
 https://github.com/jethro-swan/openmoney-gift-api (forked from https://github.com/deefactorial/openmoney-gift-api)
 
@@ -52,7 +52,7 @@ An alternative API for the _merchants_' covestment system (OM Gift). This shares
 some of the data from the OM API's Couchbase DB but also using an additional
 key-value DB. 
 
-##### openmoney-gift (OM gift)
+#### openmoney-gift (OM gift)
 
 https://github.com/jethro-swan/openmoney-gift (forked from https://github.com/deefactorial/openmoney-gift)
 
@@ -63,7 +63,7 @@ _account_ and payment to be recorded via a QR code.
 Any smartphone can be used to scan the QR code, redirecting the payer to the _OM
 Gift_ instance.
 
-#### The current state of development
+### The current state of development
 
 The _OM suite_ described above is very much a work in progress, and is intended
 primarily as a proof-of-concept demonstration system. This version has been
@@ -75,9 +75,9 @@ user-centred design of the _OM suite_ would probably make Holochain a more
 natural fit in due course.
 
   
-#### Short-term development
+### Short-term development
 
-##### openmoney-api
+#### openmoney-api
 
 - extend and complete the test suite
 
@@ -92,7 +92,7 @@ natural fit in due course.
 - isolate Couchbase calls from API in preparation for replacement of back end
   with Holochain-based storage
 
-##### openmoney-network
+#### openmoney-network
 
 - extend and complete the test suite
 
@@ -104,19 +104,19 @@ natural fit in due course.
 
 - update the code
 
-##### openmoney-gift-api
+#### openmoney-gift-api
 
 - extend and complete the test suite
 
 - update the code
 
-##### openmoney-gift
+#### openmoney-gift
 
 - extend and complete the test suite
 
 - update the code
 
-#### Medium-term development
+### Medium-term development
 
 - develop user feedback systems
 
@@ -128,7 +128,7 @@ natural fit in due course.
 
 - design and develop simulation/modelling/visualization suite
 
-#### Longer-term development
+### Longer-term development
 
 ?
 
@@ -142,6 +142,8 @@ to provide a quicker route to development of
 - a simulation and visualization suite
 - support for compound/vector currencies (information-retentive)
 - modelling, forecasting and algedonic tools 
+
+Another objective here is to provide an API consistent with, but a superset of, that of the _Open Money_ suite described above. This will simplify development of portable and re-usable components.
 
 The recursively-nested, holonic structure of the OM suite reflects the 
 structure of the Viable System Model, so a suite of tols will be developed over
