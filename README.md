@@ -16,7 +16,7 @@ implement _open money_ or, more generally, _open metrics_.
 The current implementation of _Open Money_ was created by Dominique Legault and
 comprises (so far) four main components:
 
-#### openmoney-api (OM API)
+- **openmoney-api (OM API)**
 
 https://github.com/jethro-swan/openmoney-api (forked from https://github.com/deefactorial/openmoney-api)
 
