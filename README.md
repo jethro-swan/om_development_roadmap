@@ -6,7 +6,7 @@ The term _open money_ (all lower case) refers to the concept of user-created
 "monies". This is described in a number of writings, many of which can be 
 found at https://docs.google.com/document/d/1gVuolh6TV7fH5tNTyZMCDGTsFFJeOWCP-X0Diwnj7MA/edit
 
-In this sense, _open money_ is a particular case of _open metrics_
+In this sense, _open money_ is a particular case of _open metrics_.
 
 The name _Open Money_ (capitalized) refers to specific software used to 
 implement _open money_ or, more generally, _open metrics_.
