@@ -66,14 +66,9 @@ Gift_ instance.
 
 ### The current state of development
 
-The _OM suite_ described above is very much a work in progress, and is intended
-primarily as a proof-of-concept demonstration system. This version has been
-written for use only on Ubuntu (and possibly Debian) and runs Couchbase in a 
-Docker container.
+The _OM suite_ described above is very much a work in progress, and is intended primarily as a proof-of-concept demonstration system. This version has been written for use only on Ubuntu (and possibly Debian) and runs Couchbase in a Docker container.
 
-Although Couchbase scales well and can replicate very quickly if clustered, the
-user-centred design of the _OM suite_ would probably make Holochain a more 
-natural fit in due course.
+Although Couchbase scales well and can replicate very quickly if clustered, the user-centred design of the _OM suite_ might make Holochain a more natural fit in due course.
 
   
 ### Short-term development
@@ -91,7 +86,7 @@ natural fit in due course.
 - update the code
 
 - isolate Couchbase calls from API in preparation for replacement of back end
-  with Holochain-based storage
+  (possibly with Holochain-based storage)
 
 #### openmoney-network
 
@@ -119,13 +114,15 @@ natural fit in due course.
 
 ### Medium-term development
 
+- bring stewards' private key storage back into client components (openmoney-network and openmoney-gift
+
 - develop user feedback systems
 
 - complete Swagger-generated client libraries (Python initially)
 
 - develop a richer collection of clients
 
-- re-implement storage on Holochain (using Swagger generated Rust client)
+- (perhaps) re-implement storage on Holochain (using Swagger generated Rust client)
 
 - design and develop simulation/modelling/visualization suite
 
