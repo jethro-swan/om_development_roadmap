@@ -19,7 +19,7 @@ four main components:
 
 #### openmoney-api (OM API)
 
-https://github.com/jethro-swan/openmoney-api (forked from https://github.com/deefactorial/openmoney-api)
+https://github.com/om-tools/openmoney-api (forked from https://github.com/deefactorial/openmoney-api)
 
 This provides a REST API to a Couchbase DB in which recursively nested 
 namespaces enclose _stewards_, _currencies_ and _accounts_. This is intended as
@@ -38,7 +38,7 @@ _currency_ in this sense.
 
 #### openmoney-network
 
-https://github.com/jethro-swan/openmoney-network (forked from https://github.com/deefactorial/openmoney-network)
+https://github.com/om-tools/openmoney-network (forked from https://github.com/deefactorial/openmoney-network)
 
 This is a small client designed to access the OM API. Its display is sufficiently
 compact to make it usable on a smartphone or in an iFrame.
@@ -47,7 +47,7 @@ This is essentially a proof-of-concept prototype.
 
 #### openmoney-gift-api
 
-https://github.com/jethro-swan/openmoney-gift-api (forked from https://github.com/deefactorial/openmoney-gift-api)
+https://github.com/om-tools/openmoney-gift-api (forked from https://github.com/deefactorial/openmoney-gift-api)
 
 An alternative API for the _merchants_' covestment system (OM Gift). This shares
 some of the data from the OM API's Couchbase DB but also using an additional
@@ -55,7 +55,7 @@ key-value DB.
 
 #### openmoney-gift (OM gift)
 
-https://github.com/jethro-swan/openmoney-gift (forked from https://github.com/deefactorial/openmoney-gift)
+https://github.com/om-tools/openmoney-gift (forked from https://github.com/deefactorial/openmoney-gift)
 
 The user interface for the _merchants_' covestment system. This version supports
 the design and printing of paper vouchers identifying the _merchant_, target 
@@ -130,19 +130,4 @@ Although Couchbase scales well and can replicate very quickly if clustered, the 
 
 ?
 
-### Alternative implementation
 
-Because the recursive namespace structure naturally mirrors the structure of a 
-Unix-like filesystem, that is used as the basis of an alternative implementation
-currently under development as a Python module (RNSSA). The purpose of that is 
-to provide a quicker route to development of
-- a richer collection of OM clients 
-- a simulation and visualization suite
-- support for compound/vector currencies (information-retentive)
-- modelling, forecasting and algedonic tools 
-
-Another objective here is to provide an API consistent with, but a superset of, that of the _Open Money_ suite described above. This will simplify development of portable and re-usable components.
-
-The recursively-nested, holonic structure of the OM suite reflects the 
-structure of the Viable System Model, so a suite of tools will be developed over
-time to support its application.
