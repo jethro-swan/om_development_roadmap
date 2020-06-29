@@ -19,7 +19,7 @@ four main components:
 
 #### openmoney-api (OM API)
 
-https://github.com/om-tools/openmoney-api (forked from https://github.com/deefactorial/openmoney-api)
+https://github.com/openmoney/openmoney-api (forked from https://github.com/deefactorial/openmoney-api)
 
 This provides a REST API to a Couchbase DB in which recursively nested 
 namespaces enclose _stewards_, _currencies_ and _accounts_. This is intended as
@@ -38,7 +38,7 @@ _currency_ in this sense.
 
 #### openmoney-network
 
-https://github.com/om-tools/openmoney-network (forked from https://github.com/deefactorial/openmoney-network)
+https://github.com/openmoney/openmoney-network (forked from https://github.com/deefactorial/openmoney-network)
 
 This is a small client designed to access the OM API. Its display is sufficiently
 compact to make it usable on a smartphone or in an iFrame.
@@ -47,7 +47,7 @@ This is essentially a proof-of-concept prototype.
 
 #### openmoney-gift-api
 
-https://github.com/om-tools/openmoney-gift-api (forked from https://github.com/deefactorial/openmoney-gift-api)
+https://github.com/openmoney/openmoney-gift-api (forked from https://github.com/deefactorial/openmoney-gift-api)
 
 An alternative API for the _merchants_' covestment system (OM Gift). This shares
 some of the data from the OM API's Couchbase DB but also using an additional
@@ -55,7 +55,7 @@ key-value DB.
 
 #### openmoney-gift (OM gift)
 
-https://github.com/om-tools/openmoney-gift (forked from https://github.com/deefactorial/openmoney-gift)
+https://github.com/openmoney/openmoney-gift (forked from https://github.com/deefactorial/openmoney-gift)
 
 The user interface for the _merchants_' covestment system. This version supports
 the design and printing of paper vouchers identifying the _merchant_, target 
