@@ -1,4 +1,4 @@
-# Open Money development roadmap
+# openmoney development roadmap
 
 #### Clarification of terms:
 
@@ -8,12 +8,12 @@ collected [here](https://docs.google.com/document/d/1gVuolh6TV7fH5tNTyZMCDGTsFFJ
 
 In this sense, _open money_ is a particular case of _open metrics_.
 
-The name _Open Money_ (capitalized) refers to specific software used to 
+The name _openmoney_ refers to specific software used to 
 implement _open money_ or, more generally, _open metrics_.
 
 ## The Open Money (OM) suite
 
-The current implementation of the _Open Money_ software was created by 
+The current implementation of the _openmoney_ software was created by 
 [Dominique Legault](https://github.com/deefactorial) and comprises (so far) 
 four main components:
 
