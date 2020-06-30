@@ -11,7 +11,7 @@ In this sense, _open money_ is a particular case of _open metrics_.
 The name _openmoney_ refers to specific software used to 
 implement _open money_ or, more generally, _open metrics_.
 
-## The Open Money (OM) suite
+## The openmoney (OM) suite
 
 The current implementation of the _openmoney_ software was created by 
 [Dominique Legault](https://github.com/deefactorial) and comprises (so far) 
@@ -29,7 +29,7 @@ All users are responsible for the management of their own records so every user
 is termed a _steward_.
 
 The _stewards_ are self-registering and each can create _currencies_, _accounts_
-and _namespaces_.
+and _namespaces_ where permitted
 
 A _currency_ is any value representable by a scalar. Therefore the term _open
 money_ is unnecessarily restrictive. It is maintained partly for historical 
@@ -49,7 +49,7 @@ This is essentially a proof-of-concept prototype.
 
 https://github.com/openmoney/openmoney-gift-api (forked from https://github.com/deefactorial/openmoney-gift-api)
 
-An alternative API for the _merchants_' covestment system (OM Gift). This shares
+An alternative API for the _merchants_' loyalty system (OM Gift). This shares
 some of the data from the OM API's Couchbase DB but also using an additional
 key-value DB. 
 
@@ -57,7 +57,7 @@ key-value DB.
 
 https://github.com/openmoney/openmoney-gift (forked from https://github.com/deefactorial/openmoney-gift)
 
-The user interface for the _merchants_' covestment system. This version supports
+The user interface for the _merchants_' loyalty system. This version supports
 the design and printing of paper vouchers identifying the _merchant_, target 
 _account_ and payment to be recorded via a QR code.
 
