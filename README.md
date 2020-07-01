@@ -1,3 +1,7 @@
+This document is now obsolete, having been superceded by the page at https://openmoney.github.io/roadmap/, but has been left here because the URL has been published elsewhere.
+
+---
+
 # openmoney development roadmap
 
 #### Clarification of terms:
