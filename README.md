@@ -77,7 +77,9 @@ Although Couchbase scales well and can replicate very quickly if clustered, the 
   
 ### Short-term development
 
-#### openmoney-api
+#### The current test/demonstration suite
+
+##### openmoney-api
 
 - extend and complete the test suite
 
@@ -89,10 +91,7 @@ Although Couchbase scales well and can replicate very quickly if clustered, the 
 
 - update the code
 
-- isolate Couchbase calls from API in preparation for replacement of back end
-  (possibly with Holochain-based storage)
-
-#### openmoney-network
+##### openmoney-network
 
 - extend and complete the test suite
 
@@ -104,21 +103,28 @@ Although Couchbase scales well and can replicate very quickly if clustered, the 
 
 - update the code
 
-#### openmoney-gift-api
+##### openmoney-gift-api
 
 - extend and complete the test suite
 
 - update the code
 
-#### openmoney-gift
+##### openmoney-gift
 
 - extend and complete the test suite
 
 - update the code
 
-### Medium-term development
+#### In parallel ...
+
+- completion, extension and clarification of the specification (see https://openmoney.github.io/roadmap/)
+
+- preparation of OpenAPI 3.0 specification YAML file (extended from the existing Swagger 2.0 YAML definition)
 
 - bring stewards' private key storage back into client components (openmoney-network and openmoney-gift
+
+
+### Medium-term development
 
 - develop user feedback systems
 
